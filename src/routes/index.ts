@@ -9,8 +9,8 @@ export interface IRoute {
 }
 
 export enum RouteNames {
-  LOGIN = "/react_ts_redux_calendar/login",
-  EVENT = "/react_ts_redux_calendar/",
+  LOGIN = "/react_ts_redux_calendar/",
+  EVENT = "/react_ts_redux_calendar/events",
 }
 
 export const publicRoutes: IRoute[] = [
